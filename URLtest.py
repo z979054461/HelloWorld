@@ -36,3 +36,4 @@ with request.urlopen(req, data=login_data.encode('utf-8')) as f:
     for k, v in f.getheaders():
         print('%s: %s' % (k, v))
     print('Data:', f.read().decode('utf-8'))
+apple
